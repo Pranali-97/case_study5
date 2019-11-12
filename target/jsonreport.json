@@ -1,0 +1,40 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 12,
+        "name": "proceed to payment",
+        "description": "",
+        "id": "testmeapp;proceed-to-payment",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1032100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user does the payment",
+            "match": {
+              "location": "testcase1.user_does_the_payment()"
+            },
+            "keyword": "* "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@payment"
+          }
+        ]
+      }
+    ],
+    "name": "Testmeapp",
+    "description": "",
+    "id": "testmeapp",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/junit.feature",
+    "tags": []
+  }
+]
